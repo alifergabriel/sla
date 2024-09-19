@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+            x:Class="nome.inicio">
+
+
+    <Grid BackgroundColor="Blue">
+        <Label Text="Você aceita participar do Show do Milhão?"
+               TextColor="White"
+               FontSize="24"
+               HorizontalTextAlignment="Center"
+               VerticalTextAlignment="Center" />
+
+        <Image Source="showdomilhao.png"
+               Aspect="AspectFit"
+               HorizontalOptions="Center"
+               VerticalOptions="CenterAndExpand" />
+
+        <Grid Grid.Row="1">
+            <Button Text="Sim"
+                    BackgroundColor="Gray"
+                    TextColor="Black"
+                    Clicked="Button_Clicked"
+                    HorizontalOptions="Center" />
+            <Button Text="Não"
+                    BackgroundColor="Gray"
+                    TextColor="Black"
+                    HorizontalOptions="Center"
+                    Margin="0, 10, 0, 0" />
+        </Grid>
+    </Grid>
+</ContentPage>
