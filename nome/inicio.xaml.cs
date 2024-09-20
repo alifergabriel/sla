@@ -4,7 +4,7 @@ namespace nome
 {
     public partial class inicio : ContentPage
     {
-        public nome()
+        public inicio()
         {
             InitializeComponent();
         }
