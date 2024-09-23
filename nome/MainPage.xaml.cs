@@ -11,23 +11,23 @@ public partial class MainPage : ContentPage
     }
     void OnBTNResp01Clicked(object sender, EventArgs args)
     {
-        Gerenciador.VerificaCorreto(1);
+        Gerenciador.VerificaCorreta(1);
     }
     void OnBTNResp02Clicked(object sender, EventArgs args)
     {
-        Gerenciador.VerificaCorreto(2);
+        Gerenciador.VerificaCorreta(2);
     }
     void OnBTNResp03Clicked(object sender, EventArgs args)
     {
-        Gerenciador.VerificaCorreto(3);
+        Gerenciador.VerificaCorreta(3);
     }
     void OnBTNResp04Clicked(object sender, EventArgs args)
     {
-        Gerenciador.VerificaCorreto(4);
+        Gerenciador.VerificaCorreta(4);
     }
     void OnBTNResp05Clicked(object sender, EventArgs args)
     {
-        Gerenciador.VerificaCorreto(5);
+        Gerenciador.VerificaCorreta(5);
     }
 }
 

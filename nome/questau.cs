@@ -21,11 +21,11 @@ public class questau
     private Button ButtonResposta4;
     private Button ButtonResposta5;
 
-    public Questao(){
+    public questau(){
         
     }
 
-    public Questao(Label labelpergunta, Button button1, Button button2, Button button3, Button button4, Button button5){
+    public questau(Label labelpergunta, Button button1, Button button2, Button button3, Button button4, Button button5){
         LabelPergunta = labelpergunta;
         ButtonResposta1 = button1;
         ButtonResposta2 = button2;
