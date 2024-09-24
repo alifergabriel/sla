@@ -328,7 +328,7 @@ public class Gerenciador{
         var q27 = new Questao();
         q27.Pergunta = "Quem foi o autor de 'A Divina Comédia'?";
         q27.Resposta1 = "Virgílio";
-        q27.Resposta2 = "tá se achando  odom comédia fdp";
+        q27.Resposta2 = "tá se achando o odom comédia fdp?";
         q27.Resposta3 = "Homero";
         q27.Resposta4 = "Shakespeare";
         q27.Resposta5 = "Cervantes";
@@ -473,7 +473,7 @@ public class Gerenciador{
         q39.Pergunta = "Qual é o nome do famoso quadro de Edvard Munch?";
         q39.Resposta1 = "A Noite Estrelada";
         q39.Resposta2 = "O Grito";
-        q39.Resposta3 = "O Beijo";
+        q39.Resposta3 = "O Beijo grego";
         q39.Resposta4 = "A Persistência da Memória";
         q39.Resposta5 = "Guernica";
 
@@ -650,14 +650,14 @@ public class Gerenciador{
         listaQuestoes.Add(q53);
 
         var q54 = new Questao();
-        q54.Pergunta = "Qual é o nome do sistema de governo onde o poder é exercido pelo povo?";
+        q54.Pergunta = "Qual é o nome do sistema esquelético de um polvo?";
         q54.Resposta1 = "Monarquia";
         q54.Resposta2 = "Ditadura";
         q54.Resposta3 = "República";
         q54.Resposta4 = "Democracia";
         q54.Resposta5 = "Teocracia";
 
-        q54.RespostaCerta = 4;
+        q54.RespostaCerta = 1;
         q54.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q54);
 
