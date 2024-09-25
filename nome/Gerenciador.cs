@@ -1,8 +1,7 @@
-using ShowDoMilhao;
+namespace nome;
 
-namespace ShowDoMilhao;
-
-public class Gerenciador{
+public class Gerenciador
+{
 
     List<Questao> listaQuestoes = new List<Questao>();
     List<int> listaQuestaoRespondida = new List<int>();
@@ -110,12 +109,12 @@ public class Gerenciador{
         listaQuestoes.Add(q8);
 
         var q9 = new Questao();
-        q9.Pergunta = "você botou a Mãona Lisa?";
+        q9.Pergunta = "você pintou a Mãona Lisa?";
         q9.Resposta1 = "sim";
         q9.Resposta2 = "Leonardo da Vinci";
         q9.Resposta3 = "não";
         q9.Resposta4 = "talvez";
-        q9.Resposta5 = "20 conto no pix eu boto dnv";
+        q9.Resposta5 = "20 conto no pix eu pinto dnv";
 
         q9.RespostaCerta = 5;
         q9.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
@@ -151,7 +150,7 @@ public class Gerenciador{
         q12.Resposta2 = "Tigre";
         q12.Resposta3 = "um africano com fome";
         q12.Resposta4 = "Urso";
-        q12.Resposta5 = "Gorila";
+        q12.Resposta5 = "ou um pokemon muito doido";
 
         q12.RespostaCerta = 3;
         q12.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
@@ -377,7 +376,7 @@ public class Gerenciador{
         q31.Pergunta = "Qual é a principal vitamina encontrada nas laranjas?";
         q31.Resposta1 = "Vitamina A";
         q31.Resposta2 = "Vitamina B12";
-        q31.Resposta3 = "Vitamina C";
+        q31.Resposta3 = "Vitamina de um pa-";
         q31.Resposta4 = "Vitamina D";
         q31.Resposta5 = "Vitamina E";
 
@@ -425,7 +424,7 @@ public class Gerenciador{
         q35.Pergunta = "Qual é a capital da Espanha?";
         q35.Resposta1 = "Barcelona";
         q35.Resposta2 = "Madrid";
-        q35.Resposta3 = "Sevilha";
+        q35.Resposta3 = "nacho?";
         q35.Resposta4 = "Valência";
         q35.Resposta5 = "Bilbau";
 
@@ -450,7 +449,7 @@ public class Gerenciador{
         q37.Resposta1 = "Lollapalooza";
         q37.Resposta2 = "Coachella";
         q37.Resposta3 = "Glastonbury";
-        q37.Resposta4 = "Woodstock";
+        q37.Resposta4 = "cocaín-";
         q37.Resposta5 = "Tomorrowland";
 
         q37.RespostaCerta = 4;

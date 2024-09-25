@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="nome.GamePage">
+
+
+    <ScrollView>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+                <RowDefinition Height="AUTO"/>
+
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="AUTO"/>
+
+                <ColumnDefinition Width="AUTO"/>
+
+                <ColumnDefinition Width="AUTO"/>
+
+            </Grid.ColumnDefinitions>
+            <!--
+                        <Frame IsVisible="True"
+                               x:Name="frameGameOver"
+                               Grid.Row="1"
+                               Grid.Column="0"
+                               Grid.RowSpan="10"
+                               Grid.ColumnSpan="3"
+                               Margin="20"
+                               BackgroundColor="Black">
+                                <Grid>
+                                
+                                        <Grid.RowDefinitions>
+                                                <RowDefinition Height="AUTO"/>
+                                                
+                                                <RowDefinition Height="AUTO"/>
+                                                
+                                        </Grid.RowDefinitions>
+
+                                        <Label Text="Você perdeu"
+                                               TextColor="White"
+                                               FontFamily="StalystaPersonal"
+                                               Grid.Row="0"/>
+                                               
+                                        
+                                        <Button Text="Recomeçar"
+                                                TextColor="White"
+                                                BorderColor="White"
+                                                BorderWidth="1"
+                                                Grid.Row="1"/>
+                                                
+                                </Grid>
+                        </Frame>
+                        -->
+
+            <StackPanel HorizontalAlignment="Center"
+                        VerticalAlignment="Top"
+                        Margin="10">
+                <!-- Logo -->
+                <Image Source="showdomilhao.png"
+                       Height="80"
+                       Width="200"
+                       Margin="10"/>
+
+
+                <!-- Caixa de Perguntas -->
+                <TextBlock Text="Caixa para perguntas onde vai aparecer as perguntas"
+                           x:Name="labelPergunta"
+                           Background="#FFA33F2C"
+                           Foreground="White"
+                           TextWrapping="Wrap"
+                           TextAlignment="Center"
+                           Padding="10"
+                           Margin="10"
+                           FontSize="16"
+                           FontWeight="Bold"/>
+
+
+                <!-- Respostas -->
+                <Button Content="1. Onde vai aparecer as respostas"
+                        x:Name="butaoResposta01"
+                        Clicked="clicouBotaoResposta01"
+                        Name="Option1"
+                        Background="#FFEA4335"
+                        Margin="5"
+                        FontSize="14"
+                        Padding="10"/>
+
+                <Button Content="2. Onde vai aparecer as respostas"
+                        x:Name="butaoResposta02"
+                        Clicked="clicouBotaoResposta02"
+                        Name="Option2"
+                        Background="#FFEA4335"
+                        Margin="5"
+                        FontSize="14"
+                        Padding="10"/>
+
+                <Button Content="3. Onde vai aparecer as respostas"
+                        x:Name="butaoResposta03"
+                        Clicked="clicouBotaoResposta03"
+                        Name="Option3"
+                        Background="#FFEA4335"
+                        Margin="5"
+                        FontSize="14"
+                        Padding="10"/>
+
+                <Button Content="4. Onde vai aparecer as respostas"
+                        x:Name="butaoResposta04"
+                        Clicked="clicouBotaoResposta04"
+                        Name="Option4"
+                        Background="#FFEA4335"
+                        Margin="5"
+                        FontSize="14"
+                        Padding="10"/>
+
+                <Button Content="5. Onde vai aparecer as respostas"
+                        x:Name="butaoResposta05"
+                        Clicked="clicouBotaoResposta05"
+                        Name="Option5"
+                        Background="#FFEA4335"
+                        Margin="5"
+                        FontSize="14"
+                        Padding="10"/>
+
+               </StackPanel>
+            </ScrollView>
+        </Grid>
+
+</ContentPage>
