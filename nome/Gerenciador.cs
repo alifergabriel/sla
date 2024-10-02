@@ -365,7 +365,7 @@ public class Gerenciador
         q30.Resposta1 = "Deserto do Saara";
         q30.Resposta2 = "Deserto de Gobi";
         q30.Resposta3 = "Deserto de Atacama";
-        q30.Resposta4 = "Deserto da Antártica";
+        q30.Resposta4 = "a boca de um africano";
         q30.Resposta5 = "Deserto do Kalahari";
 
         q30.RespostaCerta = 4;
@@ -399,7 +399,7 @@ public class Gerenciador
         var q33 = new Questao();
         q33.Pergunta = "Qual é o nome da maior cadeia de montanhas do mundo?";
         q33.Resposta1 = "Andes";
-        q33.Resposta2 = "Himalaias";
+        q33.Resposta2 = "meu pa-";
         q33.Resposta3 = "Alpes";
         q33.Resposta4 = "Rocosas";
         q33.Resposta5 = "Pirineus";
@@ -411,7 +411,7 @@ public class Gerenciador
         var q34 = new Questao();
         q34.Pergunta = "Quem é conhecido como o 'pai da psicanálise'?";
         q34.Resposta1 = "Carl Jung";
-        q34.Resposta2 = "Sigmund Freud";
+        q34.Resposta2 = "Sigma Freud";
         q34.Resposta3 = "B.F. Skinner";
         q34.Resposta4 = "Wilhelm Wundt";
         q34.Resposta5 = "Jean Piaget";
@@ -426,7 +426,7 @@ public class Gerenciador
         q35.Resposta2 = "Madrid";
         q35.Resposta3 = "nacho?";
         q35.Resposta4 = "Valência";
-        q35.Resposta5 = "Bilbau";
+        q35.Resposta5 = "Bilau";
 
         q35.RespostaCerta = 2;
         q35.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
@@ -434,7 +434,7 @@ public class Gerenciador
 
         var q36 = new Questao();
         q36.Pergunta = "Qual é o nome do continente onde está a maioria dos países árabes?";
-        q36.Resposta1 = "Ásia";
+        q36.Resposta1 = "granada";
         q36.Resposta2 = "África";
         q36.Resposta3 = "Europa";
         q36.Resposta4 = "América do Sul";
@@ -460,7 +460,7 @@ public class Gerenciador
         q38.Pergunta = "Qual é o principal gás encontrado na atmosfera terrestre?";
         q38.Resposta1 = "Oxigênio";
         q38.Resposta2 = "Dióxido de Carbono";
-        q38.Resposta3 = "Nitrogênio";
+        q38.Resposta3 = "peido de velhos beirando seus 90 anos ";
         q38.Resposta4 = "Hélio";
         q38.Resposta5 = "Argônio";
 
@@ -483,7 +483,7 @@ public class Gerenciador
         var q40 = new Questao();
         q40.Pergunta = "Qual é a capital da Rússia?";
         q40.Resposta1 = "São Petersburgo";
-        q40.Resposta2 = "Moscovo";
+        q40.Resposta2 = "vodka";
         q40.Resposta3 = "Kiev";
         q40.Resposta4 = "Minsk";
         q40.Resposta5 = "Tóquio";
@@ -495,7 +495,7 @@ public class Gerenciador
         var q41 = new Questao();
         q41.Pergunta = "Qual é o maior mamífero terrestre?";
         q41.Resposta1 = "Rinoceronte";
-        q41.Resposta2 = "Elefante Africano";
+        q41.Resposta2 = "sua irmã";
         q41.Resposta3 = "Girafa";
         q41.Resposta4 = "Urso Polar";
         q41.Resposta5 = "Hipopótamo";
@@ -507,7 +507,7 @@ public class Gerenciador
         var q42 = new Questao();
         q42.Pergunta = "Quem foi o primeiro presidente dos Estados Unidos?";
         q42.Resposta1 = "Abraham Lincoln";
-        q42.Resposta2 = "George Washington";
+        q42.Resposta2 = "não sei num tava lá";
         q42.Resposta3 = "Thomas Jefferson";
         q42.Resposta4 = "Franklin D. Roosevelt";
         q42.Resposta5 = "John Adams";
@@ -518,7 +518,7 @@ public class Gerenciador
 
         var q43 = new Questao();
         q43.Pergunta = "Qual é a capital da Argentina?";
-        q43.Resposta1 = "Buenos Aires";
+        q43.Resposta1 = "pobreza ";
         q43.Resposta2 = "São Paulo";
         q43.Resposta3 = "Santiago";
         q43.Resposta4 = "Montevidéu";
@@ -530,7 +530,7 @@ public class Gerenciador
 
         var q44 = new Questao();
         q44.Pergunta = "Qual é a primeira letra do alfabeto grego?";
-        q44.Resposta1 = "Beta";
+        q44.Resposta1 = "beijo";
         q44.Resposta2 = "Alfa";
         q44.Resposta3 = "Gama";
         q44.Resposta4 = "Delta";
@@ -542,7 +542,7 @@ public class Gerenciador
 
         var q45 = new Questao();
         q45.Pergunta = "Qual é o nome do famoso personagem de Sherlock Holmes?";
-        q45.Resposta1 = "Dr. Watson";
+        q45.Resposta1 = "Dr. jacinto leite quente aq no rego";
         q45.Resposta2 = "Hercule Poirot";
         q45.Resposta3 = "Philip Marlowe";
         q45.Resposta4 = "James Bond";
@@ -565,10 +565,10 @@ public class Gerenciador
         listaQuestoes.Add(q46);
 
         var q47 = new Questao();
-        q47.Pergunta = "Qual é a moeda da União Europeia?";
+        q47.Pergunta = "Qual é a moeda da União sovietica?";
         q47.Resposta1 = "Dólar";
         q47.Resposta2 = "Libra";
-        q47.Resposta3 = "Euro";
+        q47.Resposta3 = "negr....";
         q47.Resposta4 = "Franco";
         q47.Resposta5 = "Yen";
 
@@ -662,7 +662,7 @@ public class Gerenciador
 
         var q55 = new Questao();
         q55.Pergunta = "Qual é a fórmula da glicose?";
-        q55.Resposta1 = "C6H12O6";
+        q55.Resposta1 = "docin";
         q55.Resposta2 = "C2H5OH";
         q55.Resposta3 = "NaCl";
         q55.Resposta4 = "H2O";
@@ -674,7 +674,7 @@ public class Gerenciador
 
         var q56 = new Questao();
         q56.Pergunta = "Qual é a capital da Alemanha?";
-        q56.Resposta1 = "Berlim";
+        q56.Resposta1 = "auschwitz";
         q56.Resposta2 = "Munique";
         q56.Resposta3 = "Frankfurt";
         q56.Resposta4 = "Hamburgo";
@@ -686,7 +686,7 @@ public class Gerenciador
 
         var q57 = new Questao();
         q57.Pergunta = "Qual é a capital da Grécia?";
-        q57.Resposta1 = "Atenas";
+        q57.Resposta1 = "beijo grego novamente....";
         q57.Resposta2 = "Salônica";
         q57.Resposta3 = "Heraclión";
         q57.Resposta4 = "Patras";
@@ -701,7 +701,7 @@ public class Gerenciador
         q58.Resposta1 = "Lago Superior";
         q58.Resposta2 = "Lago Baikal";
         q58.Resposta3 = "Lago Vitória";
-        q58.Resposta4 = "Mar Cáspio";
+        q58.Resposta4 = "a cabeça de uma criança com hidrocefalia";
         q58.Resposta5 = "Lago Tanganica";
 
         q58.RespostaCerta = 4;
@@ -711,7 +711,7 @@ public class Gerenciador
         var q59 = new Questao();
         q59.Pergunta = "Qual é a língua oficial da China?";
         q59.Resposta1 = "Inglês";
-        q59.Resposta2 = "Mandarim";
+        q59.Resposta2 = "trabalho infantil";
         q59.Resposta3 = "Cantonês";
         q59.Resposta4 = "Tibetano";
         q59.Resposta5 = "Hakka";
@@ -722,7 +722,7 @@ public class Gerenciador
 
         var q60 = new Questao();
         q60.Pergunta = "Qual é o famoso monumento de Paris?";
-        q60.Resposta1 = "Torre Eiffel";
+        q60.Resposta1 = "meu pau";
         q60.Resposta2 = "Coliseu";
         q60.Resposta3 = "Torre de Pisa";
         q60.Resposta4 = "Big Ben";
@@ -734,7 +734,7 @@ public class Gerenciador
 
         var q61 = new Questao();
         q61.Pergunta = "Qual é o elemento químico com símbolo Na?";
-        q61.Resposta1 = "Sódio";
+        q61.Resposta1 = "não cuzinho não";
         q61.Resposta2 = "Nitrogênio";
         q61.Resposta3 = "Cloro";
         q61.Resposta4 = "Cálcio";
@@ -748,7 +748,7 @@ public class Gerenciador
         q62.Pergunta = "Qual é a capital do Brasil?";
         q62.Resposta1 = "Rio de Janeiro";
         q62.Resposta2 = "São Paulo";
-        q62.Resposta3 = "Brasília";
+        q62.Resposta3 = "corrupção";
         q62.Resposta4 = "Belo Horizonte";
         q62.Resposta5 = "Salvador";
 
@@ -760,7 +760,7 @@ public class Gerenciador
         q63.Pergunta = "Qual é o famoso documento que declarou a independência dos Estados Unidos?";
         q63.Resposta1 = "Constituição";
         q63.Resposta2 = "Declaração dos Direitos";
-        q63.Resposta3 = "Declaração de Independência";
+        q63.Resposta3 = "Declaração de Independência para agressão de pessoas negras";
         q63.Resposta4 = "Bill of Rights";
         q63.Resposta5 = "Federalist Papers";
 
@@ -772,7 +772,7 @@ public class Gerenciador
         q64.Pergunta = "Qual é o nome do movimento artístico que enfatizou a razão e a ciência?";
         q64.Resposta1 = "Romantismo";
         q64.Resposta2 = "Realismo";
-        q64.Resposta3 = "Iluminismo";
+        q64.Resposta3 = "punheta";
         q64.Resposta4 = "Barroco";
         q64.Resposta5 = "Modernismo";
 
@@ -782,7 +782,7 @@ public class Gerenciador
 
         var q65 = new Questao();
         q65.Pergunta = "Qual é o famoso romance de Jane Austen?";
-        q65.Resposta1 = "Orgulho e Preconceito";
+        q65.Resposta1 = "homofobia e Preconceito";
         q65.Resposta2 = "Jane Eyre";
         q65.Resposta3 = "O Morro dos Ventos Uivantes";
         q65.Resposta4 = "Crime e Castigo";
@@ -807,8 +807,8 @@ public class Gerenciador
         var q67 = new Questao();
         q67.Pergunta = "Qual é a capital da Índia?";
         q67.Resposta1 = "Bombaim";
-        q67.Resposta2 = "Nova Délhi";
-        q67.Resposta3 = "Calcutá";
+        q67.Resposta2 = "आनन्द संघर्ष मे, प्रयास मे, एहि मे शामिल दुख मे होइत छैक आ स्वयं जीत मे नहि";
+        q67.Resposta3 = "fome";
         q67.Resposta4 = "Chennai";
         q67.Resposta5 = "Hyderabad";
 
@@ -833,7 +833,7 @@ public class Gerenciador
         q69.Resposta1 = "Londres";
         q69.Resposta2 = "Berlim";
         q69.Resposta3 = "Madri";
-        q69.Resposta4 = "Paris";
+        q69.Resposta4 = "PSG";
         q69.Resposta5 = "Roma";
 
         q69.RespostaCerta = 4;
@@ -844,7 +844,7 @@ public class Gerenciador
         q70.Pergunta = "Qual é o nome do primeiro satélite lançado ao espaço?";
         q70.Resposta1 = "Apollo 11";
         q70.Resposta2 = "Vostok 1";
-        q70.Resposta3 = "Sputnik 1";
+        q70.Resposta3 = "sla man, pergunta para ele";
         q70.Resposta4 = "Explorer 1";
         q70.Resposta5 = "Hubble";
 
@@ -880,7 +880,7 @@ public class Gerenciador
         q73.Pergunta = "Qual é a moeda da Rússia?";
         q73.Resposta1 = "Dólar";
         q73.Resposta2 = "Euro";
-        q73.Resposta3 = "Rublo";
+        q73.Resposta3 = "rublo";
         q73.Resposta4 = "Yen";
         q73.Resposta5 = "Franco";
 
@@ -890,7 +890,7 @@ public class Gerenciador
 
         var q74 = new Questao();
         q74.Pergunta = "Quem é o famoso personagem da Disney que é um pato?";
-        q74.Resposta1 = "Pato Donald";
+        q74.Resposta1 = "Pato Donald vstido de hitl-";
         q74.Resposta2 = "Mickey Mouse";
         q74.Resposta3 = "Pateta";
         q74.Resposta4 = "Pato Lucas";
@@ -905,8 +905,8 @@ public class Gerenciador
         q75.Resposta1 = "Thor";
         q75.Resposta2 = "Capitão América";
         q75.Resposta3 = "Hulk";
-        q75.Resposta4 = "Iron Man";
-        q75.Resposta5 = "Spider-Man";
+        q75.Resposta4 = "Iron Dick Man";
+        q75.Resposta5 = "Spider-cook";
 
         q75.RespostaCerta = 4;
         q75.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
@@ -926,7 +926,7 @@ public class Gerenciador
 
         var q77 = new Questao();
         q77.Pergunta = "Qual é o nome da famosa obra de arte de Leonardo da Vinci?";
-        q77.Resposta1 = "A Última Ceia";
+        q77.Resposta1 = "não confie no judas";
         q77.Resposta2 = "O Nascimento de Vênus";
         q77.Resposta3 = "A Criação de Adão";
         q77.Resposta4 = "A Noite Estrelada";
@@ -966,7 +966,7 @@ public class Gerenciador
         q80.Resposta2 = "Cebola";
         q80.Resposta3 = "Abacate";
         q80.Resposta4 = "Pimentão";
-        q80.Resposta5 = "Limão";
+        q80.Resposta5 = "porra de um mexicano mucho loco";
 
         q80.RespostaCerta = 3;
         q80.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
@@ -974,7 +974,7 @@ public class Gerenciador
 
         var q81 = new Questao();
         q81.Pergunta = "Qual é a capital do Japão?";
-        q81.Resposta1 = "Tóquio";
+        q81.Resposta1 = "goku";
         q81.Resposta2 = "Seul";
         q81.Resposta3 = "Pequim";
         q81.Resposta4 = "Banguecoque";
@@ -987,8 +987,8 @@ public class Gerenciador
         var q82 = new Questao();
         q82.Pergunta = "Qual é a famosa obra do dramaturgo William Shakespeare?";
         q82.Resposta1 = "Romeu e Julieta";
-        q82.Resposta2 = "Dom Quixote";
-        q82.Resposta3 = "A Divina Comédia";
+        q82.Resposta2 = "Dom Quixote d' FLAMENGO";
+        q82.Resposta3 = "Divina facínora";
         q82.Resposta4 = "O Morro dos Ventos Uivantes";
         q82.Resposta5 = "Crime e Castigo";
 
@@ -1013,7 +1013,7 @@ public class Gerenciador
         q84.Resposta1 = "Sushi";
         q84.Resposta2 = "Tacos";
         q84.Resposta3 = "Pizza";
-        q84.Resposta4 = "Pasta";
+        q84.Resposta4 = "temporrad'chefe";
         q84.Resposta5 = "Curry";
 
         q84.RespostaCerta = 4;
@@ -1024,11 +1024,11 @@ public class Gerenciador
         q85.Pergunta = "Qual é a principal função do fígado no corpo humano?";
         q85.Resposta1 = "Respiração";
         q85.Resposta2 = "Filtração de sangue";
-        q85.Resposta3 = "Produção de hormônios";
+        q85.Resposta3 = "reprodução sexual de jegues";
         q85.Resposta4 = "Movimentação";
         q85.Resposta5 = "Digestão";
 
-        q85.RespostaCerta = 2;
+        q85.RespostaCerta = 3;
         q85.ConfiguraEstruturaDesenho(labelPergunta, buttonResposta01, buttonResposta02, buttonResposta03, buttonResposta04, buttonResposta05);
         listaQuestoes.Add(q85);
 
@@ -1047,7 +1047,7 @@ public class Gerenciador
         var q87 = new Questao();
         q87.Pergunta = "Qual é a capital da Itália?";
         q87.Resposta1 = "Veneza";
-        q87.Resposta2 = "Roma";
+        q87.Resposta2 = "croissant";
         q87.Resposta3 = "Milão";
         q87.Resposta4 = "Florença";
         q87.Resposta5 = "Nápoles";
@@ -1057,9 +1057,9 @@ public class Gerenciador
         listaQuestoes.Add(q87);
 
         var q88 = new Questao();
-        q88.Pergunta = "Qual é o nome do famoso super-herói da DC que é um Homem Morcego?";
+        q88.Pergunta = "Qual é o nome do famoso super-herói da DC que é conhecido como Homem fimose?";
         q88.Resposta1 = "Superman";
-        q88.Resposta2 = "Batman";
+        q88.Resposta2 = "Batpica";
         q88.Resposta3 = "Aquaman";
         q88.Resposta4 = "Flash";
         q88.Resposta5 = "Lanterna Verde";
@@ -1070,7 +1070,7 @@ public class Gerenciador
 
         var q89 = new Questao();
         q89.Pergunta = "Qual é a capital da Coreia do Sul?";
-        q89.Resposta1 = "Seul";
+        q89.Resposta1 = "Kim Jong-Un";
         q89.Resposta2 = "Pyongyang";
         q89.Resposta3 = "Tóquio";
         q89.Resposta4 = "Pequim";
@@ -1082,7 +1082,7 @@ public class Gerenciador
 
         var q90 = new Questao();
         q90.Pergunta = "Qual é o nome do famoso deus da mitologia grega que é o deus do trovão?";
-        q90.Resposta1 = "Zeus";
+        q90.Resposta1 = "comedor de casadas e casados vulgo qm nega buraco é prefeitura";
         q90.Resposta2 = "Poseidon";
         q90.Resposta3 = "Hades";
         q90.Resposta4 = "Apolo";
@@ -1118,7 +1118,7 @@ public class Gerenciador
 
         var q93 = new Questao();
         q93.Pergunta = "Qual é a maior floresta tropical do mundo?";
-        q93.Resposta1 = "Floresta Amazônica";
+        q93.Resposta1 = "os pentelhos da bunda do joabe";
         q93.Resposta2 = "Floresta do Congo";
         q93.Resposta3 = "Floresta Boreal";
         q93.Resposta4 = "Floresta Negra";
@@ -1130,7 +1130,7 @@ public class Gerenciador
 
         var q94 = new Questao();
         q94.Pergunta = "Qual é a capital da Áustria?";
-        q94.Resposta1 = "Viena";
+        q94.Resposta1 = "fome";
         q94.Resposta2 = "Budapeste";
         q94.Resposta3 = "Praga";
         q94.Resposta4 = "Bratislava";
@@ -1154,7 +1154,7 @@ public class Gerenciador
 
         var q96 = new Questao();
         q96.Pergunta = "Qual é a capital da Finlândia?";
-        q96.Resposta1 = "Helsinque";
+        q96.Resposta1 = "Fin hora de aventura";
         q96.Resposta2 = "Oslo";
         q96.Resposta3 = "Estocolmo";
         q96.Resposta4 = "Copenhague";
@@ -1178,7 +1178,7 @@ public class Gerenciador
 
         var q98 = new Questao();
         q98.Pergunta = "Qual é a moeda da Índia?";
-        q98.Resposta1 = "Rúpia";
+        q98.Resposta1 = "vacas";
         q98.Resposta2 = "Dólar";
         q98.Resposta3 = "Euro";
         q98.Resposta4 = "Yen";
@@ -1202,7 +1202,7 @@ public class Gerenciador
 
         var q100 = new Questao();
         q100.Pergunta = "Qual é a capital da Escócia?";
-        q100.Resposta1 = "Edimburgo";
+        q100.Resposta1 = "albion online é um MMO RPG estilo sandbox onde vc cria seu proprio mundo...";
         q100.Resposta2 = "Glasgow";
         q100.Resposta3 = "Aberdeen";
         q100.Resposta4 = "Inverness";
