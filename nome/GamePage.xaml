@@ -8,33 +8,20 @@
         <Grid>
             <Grid.RowDefinitions>
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
                 <RowDefinition Height="AUTO"/>
-
             </Grid.RowDefinitions>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="AUTO"/>
-
                 <ColumnDefinition Width="AUTO"/>
-
                 <ColumnDefinition Width="AUTO"/>
-
             </Grid.ColumnDefinitions>
             <!--
                         <Frame IsVisible="True"
@@ -70,9 +57,7 @@
                         </Frame>
                         -->
 
-            <StackPanel HorizontalAlignment="Center"
-                        VerticalAlignment="Top"
-                        Margin="10">
+            
                 <!-- Logo -->
                 <Image Source="showdomilhao.png"
                        Height="80"
@@ -81,66 +66,56 @@
 
 
                 <!-- Caixa de Perguntas -->
-                <TextBlock Text="Caixa para perguntas onde vai aparecer as perguntas"
+                <Label Text="Caixa para perguntas onde vai aparecer as perguntas"
                            x:Name="labelPergunta"
                            Background="#FFA33F2C"
-                           Foreground="White"
-                           TextWrapping="Wrap"
-                           TextAlignment="Center"
                            Padding="10"
                            Margin="10"
-                           FontSize="16"
-                           FontWeight="Bold"/>
+                           FontSize="16"/>
 
 
                 <!-- Respostas -->
-                <Button Content="1. Onde vai aparecer as respostas"
+                <Button Text="1. Onde vai aparecer as respostas"
                         x:Name="butaoResposta01"
                         Clicked="clicouBotaoResposta01"
-                        Name="Option1"
                         Background="#FFEA4335"
                         Margin="5"
                         FontSize="14"
                         Padding="10"/>
 
-                <Button Content="2. Onde vai aparecer as respostas"
+                <Button Text="2. Onde vai aparecer as respostas"
                         x:Name="butaoResposta02"
                         Clicked="clicouBotaoResposta02"
-                        Name="Option2"
                         Background="#FFEA4335"
                         Margin="5"
                         FontSize="14"
                         Padding="10"/>
 
-                <Button Content="3. Onde vai aparecer as respostas"
+                <Button Text="3. Onde vai aparecer as respostas"
                         x:Name="butaoResposta03"
                         Clicked="clicouBotaoResposta03"
-                        Name="Option3"
                         Background="#FFEA4335"
                         Margin="5"
                         FontSize="14"
                         Padding="10"/>
 
-                <Button Content="4. Onde vai aparecer as respostas"
+                <Button Text="4. Onde vai aparecer as respostas"
                         x:Name="butaoResposta04"
                         Clicked="clicouBotaoResposta04"
-                        Name="Option4"
                         Background="#FFEA4335"
                         Margin="5"
                         FontSize="14"
                         Padding="10"/>
 
-                <Button Content="5. Onde vai aparecer as respostas"
+                <Button Text="5. Onde vai aparecer as respostas"
                         x:Name="butaoResposta05"
                         Clicked="clicouBotaoResposta05"
-                        Name="Option5"
                         Background="#FFEA4335"
                         Margin="5"
                         FontSize="14"
                         Padding="10"/>
 
-               </StackPanel>
-            </ScrollView>
+            
         </Grid>
-
+</ScrollView>
 </ContentPage>

@@ -1,7 +1,6 @@
 namespace nome;
 
-public partial class GamePage
-{
+public partial class GamePage{
     Gerenciador gerenciador;
 	public GamePage()
     {
@@ -11,27 +10,27 @@ public partial class GamePage
         gerenciador.ProximaQuestao();
     }
 
-    void ClicouBotaoResposta01(object sender, EventArgs args)
+    void clicouBotaoResposta01(object sender, EventArgs args)
     {
         gerenciador.VerificaCorreta(1);
     }
 
-    void ClicouBotaoResposta02(object sender, EventArgs args)
+    void clicouBotaoResposta02(object sender, EventArgs args)
     {
         gerenciador.VerificaCorreta(2);
     }
     
-    void ClicouBotaoResposta03(object sender, EventArgs args)
+    void clicouBotaoResposta03(object sender, EventArgs args)
     {
         gerenciador.VerificaCorreta(3);
     }
     
-    void ClicouBotaoResposta04(object sender, EventArgs args)
+    void clicouBotaoResposta04(object sender, EventArgs args)
     {
         gerenciador.VerificaCorreta(4);
     }
     
-    void ClicouBotaoResposta05(object sender, EventArgs e)
+    void clicouBotaoResposta05(object sender, EventArgs e)
     {
         gerenciador.VerificaCorreta(5);
     }

@@ -1,13 +1,12 @@
 using System.Collections;
+using nomes;
 
 namespace nome;
 
-public class RetiraErradas : IAjuda
-{
+public class RetiraErradas : IAjuda{
     public override void RealizaAjuda(Questao questao)
     {
-        Switch(Questao.RespostaCorreta)
-     {
+        switch(questao.RespostaCerta){
         case 1: 
                 BTNResposta02.IsVisible = false;
                 BTNResposta03.IsVisible = false;

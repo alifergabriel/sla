@@ -1,12 +1,14 @@
-namespace nomesth;
+using nome;
+
+namespace nomes;
 public abstract class IAjuda
 {
-    Button BTNResposta01;
-    Button BTNResposta02;
-    Button BTNResposta03;
-    Button BTNResposta04;
-    Button BTNResposta05;
-    Frame FrameAjuda;
+    protected Button BTNResposta01;
+    protected Button BTNResposta02;
+    protected Button BTNResposta03;
+    protected Button BTNResposta04;
+    protected Button BTNResposta05;
+    protected Frame FrameAjuda;
     public void ConfigurarDesenho(Button BTNResposta01,Button BTNResposta02,Button BTNResposta03,Button BTNResposta04, Button BTNResposta05)
     {
         this.BTNResposta01 = BTNResposta01;

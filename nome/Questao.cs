@@ -49,11 +49,11 @@ public class Questao
     public void Desenhar()
     {
         LabelPergunta.Text = Pergunta;
-        ButtonResposta1.Text = Resposta1;
-        ButtonResposta2.Text = Resposta2;
-        ButtonResposta3.Text = Resposta3;
-        ButtonResposta4.Text = Resposta4;
-        ButtonResposta5.Text = Resposta5;
+        butaoResposta01.Text = Resposta1;
+        butaoResposta02.Text = Resposta2;
+        butaoResposta03.Text = Resposta3;
+        butaoResposta04.Text = Resposta4;
+        butaoResposta05.Text = Resposta5;
     }
 
     private Button QualButton(int r)
