@@ -6,12 +6,11 @@ public partial class MainPage : ContentPage
     public MainPage()
     {
         InitializeComponent();
-
     }
 
     public void GORDA(object sender, EventArgs e)
 	{
-		Navigation.PushAsync(new GamePage());
+		Application.Current.MainPage = new GamePage();
 	}
 
 }

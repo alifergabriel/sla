@@ -1,19 +1,19 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
-             x:Class="nome.MainPage">
-
+             x:Class="nome.MainPage"
+             Shell.NavBarIsVisible="false">
 
     <Grid>
-    
         <Grid.RowDefinitions>
-           <RowDefinition Height="AUTO"/>
-           <RowDefinition Height="AUTO"/>
            <RowDefinition Height="AUTO"/>
            <RowDefinition Height="AUTO"/>
         </Grid.RowDefinitions>
 
-<Button Text="Jogar"
+        <Image Source="imagem.png"
+               Aspect="Fill"/>
+
+        <Button Text="GORDA"
                 BackgroundColor="LightGray"
                 Clicked="GORDA"
                 HeightRequest="70"
@@ -21,6 +21,5 @@
                 Grid.Row="0"
                 VerticalOptions="Center"
                 HorizontalOptions="Center"/>
-            
     </Grid>
 </ContentPage>
