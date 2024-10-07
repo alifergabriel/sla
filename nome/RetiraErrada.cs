@@ -1,37 +1,45 @@
-using System.Collections;
-using nomes;
+using nome;
 
-namespace nome;
-
-public class RetiraErradas : IAjuda{
+public class RetiraErradas : IAjuda
+{
     public override void RealizaAjuda(Questao questao)
     {
-        switch(questao.RespostaCerta){
-        case 1: 
-                BTNResposta02.IsVisible = false;
-                BTNResposta03.IsVisible = false;
-                BTNResposta04.IsVisible = false;
+        switch (questao.RespostaCerta)
+        {
+            case 1:
+                BtnResp02.IsVisible = false;
+                BtnResp03.IsVisible = false;
+                BtnResp04.IsVisible = false;
+
                 break;
-        case 2:
-               BTNResposta01.IsVisible = false;
-               BTNResposta03.IsVisible = false;
-               BTNResposta05.IsVisible = false;
-               break;
-       case 3:
-               BTNResposta01.IsVisible = false;
-               BTNResposta02.IsVisible = false;
-               BTNResposta05.IsVisible = false;
-               break;
-       case 4:
-               BTNResposta02.IsVisible = false;
-               BTNResposta03.IsVisible = false;
-               BTNResposta05.IsVisible = false;
-               break;
-       case 5:
-               BTNResposta01.IsVisible = false;
-               BTNResposta02.IsVisible = false;
-               BTNResposta03.IsVisible = false;
-               break;
-     }   
+
+            case 2:
+                BtnResp01.IsVisible = false;
+                BtnResp03.IsVisible = false;
+                BtnResp05.IsVisible = false;
+
+                break;
+
+            case 3:
+                BtnResp01.IsVisible = false;
+                BtnResp02.IsVisible = false;
+                BtnResp04.IsVisible = false;
+
+                break;
+
+            case 4:
+                BtnResp03.IsVisible = false;
+                BtnResp02.IsVisible = false;
+                BtnResp05.IsVisible = false;
+
+                break;
+
+            case 5:
+                BtnResp02.IsVisible = false;
+                BtnResp03.IsVisible = false;
+                BtnResp04.IsVisible = false;
+
+                break;
+        }
     }
 }

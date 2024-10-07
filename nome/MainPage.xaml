@@ -15,7 +15,7 @@
 
         <Button Text="GORDA"
                 BackgroundColor="LightGray"
-                Clicked="GORDA"
+                Clicked="FDS"
                 HeightRequest="70"
                 WidthRequest="90"
                 Grid.Row="0"

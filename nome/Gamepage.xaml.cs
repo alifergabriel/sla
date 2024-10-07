@@ -1,10 +1,10 @@
 ﻿namespace nome
 {
-    public partial class MainPage : ContentPage
+    public partial class GamePage : ContentPage
     {
-        Gerenciador Gerenciador;
+        Gerenciador gerenciador;
 
-        public MainPage()
+        public GamePage()
         {
             InitializeComponent();
             gerenciador = new Gerenciador(labelpergunta, Button1, Button2, Button3, Button4, Button5);

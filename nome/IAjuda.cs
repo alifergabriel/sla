@@ -1,25 +1,27 @@
 using nome;
 
-namespace nomes;
 public abstract class IAjuda
 {
-    protected Button BTNResposta01;
-    protected Button BTNResposta02;
-    protected Button BTNResposta03;
-    protected Button BTNResposta04;
-    protected Button BTNResposta05;
+    protected Button BtnResp01;
+    protected Button BtnResp02;
+    protected Button BtnResp03;
+    protected Button BtnResp04;
+    protected Button BtnResp05;
     protected Frame FrameAjuda;
-    public void ConfigurarDesenho(Button BTNResposta01,Button BTNResposta02,Button BTNResposta03,Button BTNResposta04, Button BTNResposta05)
+
+    public void ConfiguraEstruturaDesenho(Button BtnResp01, Button BtnResp02, Button BtnResp03, Button BtnResp04, Button BtnResp05)
     {
-        this.BTNResposta01 = BTNResposta01;
-        this.BTNResposta02 = BTNResposta02;
-        this.BTNResposta03 = BTNResposta03;
-        this.BTNResposta04 = BTNResposta04;
-        this.BTNResposta05 = BTNResposta05;
+        this.BtnResp01 = BtnResp01;
+        this.BtnResp02 = BtnResp02;
+        this.BtnResp03 = BtnResp03;
+        this.BtnResp04 = BtnResp04;
+        this.BtnResp05 = BtnResp05;
     }
-    public void ConfigurarDesenho(Frame FrameAjuda)
+
+    public void ConfiguraEstruturaDesenho(Frame AjudaFrame)
     {
-       this.FrameAjuda = FrameAjuda;
+        this.FrameAjuda = FrameAjuda;
     }
+
     public abstract void RealizaAjuda(Questao questao);
 }
