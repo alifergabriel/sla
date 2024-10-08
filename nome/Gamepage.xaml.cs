@@ -1,4 +1,5 @@
-﻿namespace nome
+﻿using Nome;
+namespace Nome;
 {
     public partial class GamePage : ContentPage
     {
@@ -31,5 +32,18 @@
         {
             gerenciador.VerificaCorreta(5); // Correção aqui
         }
+    }
+    int pular = 0;
+    void cleiton(object s, EventArgs e)
+    {
+        if (pular == 3){
+             (s as Button).IsVisible = false;
+             gerenciador.ProximaQuestao();
+        }
+       else {
+         gerenciador.ProximaQuestao();
+         pular ++;
+       }
+       
     }
 }

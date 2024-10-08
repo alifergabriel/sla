@@ -2,140 +2,139 @@
 <ContentPage xmlns="http://schemas.microsoft.com/dotnet/2021/maui"
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="nome.GamePage"
-
              BackgroundColor="white">
 
-    <Grid>
-        <Grid.RowDefinitions>
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-            <RowDefinition Height="*" />
-        </Grid.RowDefinitions>
+        <Grid>
+                <Grid.RowDefinitions>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                </Grid.RowDefinitions>
 
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-            <ColumnDefinition Width="*" />
-        </Grid.ColumnDefinitions>
+                <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+                </Grid.ColumnDefinitions>
 
-        <!-- Imagem -->
-        <Image Source="banco.png"
-               HeightRequest="102"
-               Grid.Row="0"
-               Grid.Column="0"
-               Grid.ColumnSpan="3" />
+                <!-- Imagem -->
+                <Image Source="banco.png"
+                       HeightRequest="102"
+                       Grid.Row="0"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3"/>
 
-        <!-- Pergunta -->
-        <Label x:Name="labelpergunta"
-               BackgroundColor="black"
-               HorizontalTextAlignment="Center"
-               Margin="20,0,20,20"
-               Text="Sua pergunta aqui"
-               TextColor="white"
-               WidthRequest="600"
-               FontSize="27"
-               Grid.Row="1"
-               Grid.Column="0"
-               Grid.ColumnSpan="3" />
+                <!-- Pergunta -->
+                <Label x:Name="labelpergunta"
+                       BackgroundColor="black"
+                       HorizontalTextAlignment="Center"
+                       Margin="20,0,20,20"
+                       Text="Sua pergunta aqui"
+                       TextColor="white"
+                       WidthRequest="600"
+                       FontSize="27"
+                       Grid.Row="1"
+                       Grid.Column="0"
+                       Grid.ColumnSpan="3"/>
 
-        <!-- Botões de resposta -->
-        <Button x:Name="Button1"
-                Clicked="OnButtonResposta01ButtonClicked"
-                WidthRequest="600"
-                BackgroundColor="#EDD30E"
-                TextColor="#8C8C8C"
-                FontSize="12"
-                Text="Opção 1"
-                Margin="0,0,0,10"
-                Grid.Row="2"
-                Grid.Column="0"
-                Grid.ColumnSpan="3" />
+                <!-- Botões de resposta -->
+                <Button x:Name="Button1"
+                        Clicked="elmamaria"
+                        WidthRequest="600"
+                        BackgroundColor="#EDD30E"
+                        TextColor="#8C8C8C"
+                        FontSize="12"
+                        Text="Opção 1"
+                        Margin="0,0,0,10"
+                        Grid.Row="2"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"/>
 
-        <Button x:Name="Button2"
-                 Clicked="OnButtonResposta02ButtonClicked"
-                WidthRequest="600"
-                BackgroundColor="#EDD30E"
-                TextColor="#8C8C8C"
-                FontSize="12"
-                Text="Opção 2"
-                Margin="0,0,0,10"
-                Grid.Row="3"
-                Grid.Column="0"
-                Grid.ColumnSpan="3" />
+                <Button x:Name="Button2"
+                        Clicked="judite"
+                        WidthRequest="600"
+                        BackgroundColor="#EDD30E"
+                        TextColor="#8C8C8C"
+                        FontSize="12"
+                        Text="Opção 2"
+                        Margin="0,0,0,10"
+                        Grid.Row="3"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"/>
 
-        <Button x:Name="Button3"
-                Clicked="OnButtonResposta03ButtonClicked"
-                WidthRequest="600"
-                BackgroundColor="#EDD30E"
-                TextColor="#8C8C8C"
-                FontSize="12"
-                Text="Opção 3"
-                Margin="0,0,0,10"
-                Grid.Row="4"
-                Grid.Column="0"
-                Grid.ColumnSpan="3" />
+                <Button x:Name="Button3"
+                        Clicked="roberson"
+                        WidthRequest="600"
+                        BackgroundColor="#EDD30E"
+                        TextColor="#8C8C8C"
+                        FontSize="12"
+                        Text="Opção 3"
+                        Margin="0,0,0,10"
+                        Grid.Row="4"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"/>
 
-        <Button x:Name="Button4"
-                Clicked="OnButtonResposta04ButtonClicked"
-                WidthRequest="600"
-                BackgroundColor="#EDD30E"
-                TextColor="#8C8C8C"
-                FontSize="12"
-                Text="Opção 4"
-                Margin="0,0,0,10"
-                Grid.Row="5"
-                Grid.Column="0"
-                Grid.ColumnSpan="3" />
+                <Button x:Name="Button4"
+                        Clicked="cleitin"
+                        WidthRequest="600"
+                        BackgroundColor="#EDD30E"
+                        TextColor="#8C8C8C"
+                        FontSize="12"
+                        Text="Opção 4"
+                        Margin="0,0,0,10"
+                        Grid.Row="5"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"/>
 
-        <Button x:Name="Button5"
-                Clicked="OnButtonResposta05ButtonClicked"
-                WidthRequest="600"
-                BackgroundColor="#EDD30E"
-                TextColor="#8C8C8C"
-                FontSize="12"
-                Text="Opção 5"
-                Margin="0,0,0,10"
-                Grid.Row="6"
-                Grid.Column="0"
-                Grid.ColumnSpan="3" />
+                <Button x:Name="Button5"
+                        Clicked="jão"
+                        WidthRequest="600"
+                        BackgroundColor="#EDD30E"
+                        TextColor="#8C8C8C"
+                        FontSize="12"
+                        Text="Opção 5"
+                        Margin="0,0,0,10"
+                        Grid.Row="6"
+                        Grid.Column="0"
+                        Grid.ColumnSpan="3"/>
 
-        <!-- Botões de ajuda -->
-        <Button x:Name="ButtonCartas"
-                Clicked="OnButtonResposta01ButtonClicked"
-                WidthRequest="200"
-                BackgroundColor="Blue"
-                FontSize="12"
-                Text="cagão cagão"
-                BorderColor="#D4D6D5"
-                BorderWidth="2"
-                Grid.Row="7"
-                Grid.Column="0" />
+                <!-- Botões de ajuda -->
+                <Button x:Name="ButtonCartas"
+                        Clicked="junin"
+                        WidthRequest="200"
+                        BackgroundColor="Blue"
+                        FontSize="12"
+                        Text="cagão cagão"
+                        BorderColor="#D4D6D5"
+                        BorderWidth="2"
+                        Grid.Row="7"
+                        Grid.Column="0"/>
 
-        <Button x:Name="ButtonUniversitários"
-                Clicked="OnButtonResposta01ButtonClicked"
-                BorderColor="#D4D6D5"
-                BorderWidth="2"
-                WidthRequest="200"       
-                BackgroundColor="Blue"
-                FontSize="12"
-                Text="precisa disso mesmo?"
-                Grid.Row="7"
-                Grid.Column="1" />
+                <Button x:Name="ButtonUniversitários"
+                        Clicked="joelma"
+                        BorderColor="#D4D6D5"
+                        BorderWidth="2"
+                        WidthRequest="200"
+                        BackgroundColor="Blue"
+                        FontSize="12"
+                        Text="precisa disso mesmo?"
+                        Grid.Row="7"
+                        Grid.Column="1"/>
 
-        <Button x:Name="ButtonTiraum"
-                Clicked="OnButtonResposta01ButtonClicked"
-                BorderColor="#D4D6D5"
-                BorderWidth="3"
-                WidthRequest="200"
-                BackgroundColor="Blue"
-                FontSize="12"
-                Text="Vai tirar um memo é?"
-                Grid.Row="7"
-                Grid.Column="2" />
-    </Grid>
+                <Button x:Name="ButtonTiraum"
+                        Clicked="cleiton"
+                        BorderColor="#D4D6D5"
+                        BorderWidth="3"
+                        WidthRequest="200"
+                        BackgroundColor="Blue"
+                        FontSize="12"
+                        Text="Vai tirar um memo é?x3"
+                        Grid.Row="7"
+                        Grid.Column="2"/>
+        </Grid>
 </ContentPage>
